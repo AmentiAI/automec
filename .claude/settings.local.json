@@ -32,7 +32,12 @@
       "Bash(grep -r \"basil\\\\|2025-03-31\\\\|LatestApiVersion\" /mnt/c/Users/Wilso/automec/node_modules/stripe/cjs/ --include=*.d.ts)",
       "Bash(grep -r \"basil\\\\|LatestApiVersion\" /mnt/c/Users/Wilso/automec/node_modules/stripe/ --include=*.d.ts -l)",
       "Bash(cat /mnt/c/Users/Wilso/automec/apps/web/src/app/\\\\\\(app\\\\\\)/shop/page.tsx)",
-      "Bash(cat /mnt/c/Users/Wilso/automec/apps/web/src/app/\\\\\\(app\\\\\\)/shop/tune-requests/page.tsx)"
+      "Bash(cat /mnt/c/Users/Wilso/automec/apps/web/src/app/\\\\\\(app\\\\\\)/shop/tune-requests/page.tsx)",
+      "Bash(cat /mnt/c/Users/Wilso/automec/apps/web/src/app/\\\\\\(app\\\\\\)/parts/[partId]/page.tsx)",
+      "Bash(cat /mnt/c/Users/Wilso/automec/apps/web/src/app/\\\\\\(public\\\\\\)/parts/[partId]/page.tsx)",
+      "Bash(rm /mnt/c/Users/Wilso/automec/apps/web/src/app/\\\\\\(app\\\\\\)/parts/[partId]/page.tsx)",
+      "Bash(rmdir /mnt/c/Users/Wilso/automec/apps/web/src/app/\\\\\\(app\\\\\\)/parts/[partId])",
+      "Bash(ls:*)"
     ]
   }
 }
