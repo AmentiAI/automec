@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm install:*)",
+      "Bash(DATABASE_URL=\"postgresql://neondb_owner:npg_FC9dkZsK6hNY@ep-bitter-band-andqbcqy-pooler.c-6.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require\" pnpm db:push)",
+      "Bash(for f:*)",
+      "Bash(do sed:*)",
+      "Bash(done)",
+      "Bash(DATABASE_URL=\"postgresql://neondb_owner:npg_FC9dkZsK6hNY@ep-bitter-band-andqbcqy-pooler.c-6.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require\" pnpm db:seed 2>&1)",
+      "Bash(xargs sed:*)",
+      "Bash(npm install:*)",
+      "Bash(ls /mnt/c/Users/Wilso/automec/apps/web/node_modules/.bin/next*)",
+      "Bash(ls /mnt/c/Users/Wilso/automec/packages/*/node_modules/.bin)",
+      "Bash(ls /mnt/c/Users/Wilso/automec/apps/web/.env*)",
+      "WebSearch",
+      "Bash(ls /mnt/c/Users/Wilso/automec/*.lock)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(''''version:'''', d.get\\(''''version''''\\)\\); print\\(''''name:'''', d.get\\(''''name''''\\)\\)\")",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(''''version:'''', d.get\\(''''version''''\\)\\)\")",
+      "Bash(grep -r 'Vulnerable version of Next.js' /mnt/c/Users/Wilso/automec/node_modules/next/ --include=*.js -l)",
+      "Bash(grep -r vercel.link/CVE /mnt/c/Users/Wilso/automec/node_modules/next/ --include=*.js -l)"
+    ]
+  }
+}

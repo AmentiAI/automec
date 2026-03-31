@@ -1,0 +1,39 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Build outputs
+dist
+.next
+out
+build
+
+# Turbo
+.turbo
+
+# Environment
+.env
+.env.local
+.env.*.local
+.env.production
+
+# Misc
+.DS_Store
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Drizzle
+drizzle/meta
+
+# Editor
+.vscode
+.idea
+*.swp
+*.swo
+
+# Vercel
+.vercel
+
+# PostHog / analytics local
+.posthog

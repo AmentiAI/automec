@@ -1,0 +1,6 @@
+{
+  "name": "inotify",
+  "version": "1.4.6",
+  "description": "Windows stub for inotify (Linux-only native addon)",
+  "main": "index.js"
+}
