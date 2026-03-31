@@ -13,8 +13,8 @@ export const createPartSchema = z.object({
   partNumber: z.string().max(100).optional(),
   description: z.string().max(5000).optional(),
   price: z.number().min(0).optional(),
-  condition: z.enum(['new', 'used', 'remanufactured']).default('new'),
-  isTuneRequired: z.boolean().default(false),
+  condition: z.enum(['new', 'used', 'remanufactured']).optional(),
+  isTuneRequired: z.boolean().optional(),
 })
 
 export const updatePartSchema = createPartSchema.partial()
@@ -22,7 +22,7 @@ export const updatePartSchema = createPartSchema.partial()
 export const createFitmentRuleSchema = z.object({
   partId: z.string(),
   vehicleConfigIds: z.array(z.string()).min(1),
-  ruleType: z.enum(['direct', 'conditional', 'exclude']).default('direct'),
+  ruleType: z.enum(['direct', 'conditional', 'exclude']).optional(),
   notes: z.string().max(1000).optional(),
   dependsOnPartIds: z.array(z.string()).optional(),
   conflictsWithPartIds: z.array(z.string()).optional(),
