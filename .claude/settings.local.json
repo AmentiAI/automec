@@ -17,7 +17,22 @@
       "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(''''version:'''', d.get\\(''''version''''\\)\\); print\\(''''name:'''', d.get\\(''''name''''\\)\\)\")",
       "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(''''version:'''', d.get\\(''''version''''\\)\\)\")",
       "Bash(grep -r 'Vulnerable version of Next.js' /mnt/c/Users/Wilso/automec/node_modules/next/ --include=*.js -l)",
-      "Bash(grep -r vercel.link/CVE /mnt/c/Users/Wilso/automec/node_modules/next/ --include=*.js -l)"
+      "Bash(grep -r vercel.link/CVE /mnt/c/Users/Wilso/automec/node_modules/next/ --include=*.js -l)",
+      "Bash(ls /mnt/c/Users/Wilso/automec/packages/*/tsconfig.json)",
+      "Bash(do echo:*)",
+      "Read(//mnt/c/Users/Wilso/automec/**)",
+      "Bash(cat /mnt/c/Users/Wilso/automec/apps/web/src/app/\\\\\\(app\\\\\\)/layout.tsx)",
+      "Bash(cat /mnt/c/Users/Wilso/automec/apps/web/src/app/\\\\\\(app\\\\\\)/garage/page.tsx)",
+      "Bash(cat /mnt/c/Users/Wilso/automec/apps/web/src/app/\\\\\\(app\\\\\\)/tune-requests/page.tsx)",
+      "Bash(cat /mnt/c/Users/Wilso/automec/apps/web/src/app/\\\\\\(app\\\\\\)/billing/page.tsx)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(''''version:'''', d[''''version'''']\\)\")",
+      "Bash(cat /mnt/c/Users/Wilso/automec/apps/web/src/app/\\\\\\(marketing\\\\\\)/page.tsx)",
+      "Bash(cat /mnt/c/Users/Wilso/automec/apps/web/src/app/\\\\\\(marketing\\\\\\)/pricing/page.tsx)",
+      "Bash(/dev/null -l)",
+      "Bash(grep -r \"basil\\\\|2025-03-31\\\\|LatestApiVersion\" /mnt/c/Users/Wilso/automec/node_modules/stripe/cjs/ --include=*.d.ts)",
+      "Bash(grep -r \"basil\\\\|LatestApiVersion\" /mnt/c/Users/Wilso/automec/node_modules/stripe/ --include=*.d.ts -l)",
+      "Bash(cat /mnt/c/Users/Wilso/automec/apps/web/src/app/\\\\\\(app\\\\\\)/shop/page.tsx)",
+      "Bash(cat /mnt/c/Users/Wilso/automec/apps/web/src/app/\\\\\\(app\\\\\\)/shop/tune-requests/page.tsx)"
     ]
   }
 }
